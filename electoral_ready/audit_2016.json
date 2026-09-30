@@ -1,0 +1,595 @@
+{
+  "year": 2016,
+  "unit_keys": 1852,
+  "precincts": 110,
+  "sources": {
+    "GENERAL": {
+      "source": "cee_election_returns/2016/2016 por unidades.xls",
+      "sheet": "Escrutinio de Elecciones 2016",
+      "sha256": "27825515b10738b724d2b1f9016a6bc10986eb0532bd82b7fb7bd4cd63ecaad5",
+      "rows": 1852,
+      "blank_padded_rows": 30914,
+      "publication_footer_rows": 1,
+      "unit_keys": 1852,
+      "precincts": 110,
+      "non_additive_status_values": {},
+      "columns": {
+        "GOB_PPD": {
+          "source_total": 614190,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_PNP": {
+          "source_total": 660510,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_PIP": {
+          "source_total": 33729,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_PPT": {
+          "source_total": 5430,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_IND_1": {
+          "source_total": 90494,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_IND_2": {
+          "source_total": 175831,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_OTR": {
+          "source_total": 1776,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_MVT": {
+          "source_total": 1410,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "GOB_NVT": {
+          "source_total": 2503,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_PPD": {
+          "source_total": 695073,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_PNP": {
+          "source_total": 718591,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_PIP": {
+          "source_total": 39704,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_PPT": {
+          "source_total": 19033,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_OTR": {
+          "source_total": 6415,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_MVT": {
+          "source_total": 365,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "COM_NVT": {
+          "source_total": 106267,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_BLN": {
+          "source_total": 3883,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_NUL": {
+          "source_total": 712,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_CND": {
+          "source_total": 414536,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_TOT": {
+          "source_total": 1590016,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_INT_PPD": {
+          "source_total": 525582,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_INT_PNP": {
+          "source_total": 585874,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_INT_PIP": {
+          "source_total": 22461,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_INT_PPT": {
+          "source_total": 3032,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_MIX_PPD": {
+          "source_total": 9776,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_MIX_PNP": {
+          "source_total": 16127,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_MIX_PIP": {
+          "source_total": 6708,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "EST_MIX_PPT": {
+          "source_total": 1698,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_PPD": {
+          "source_total": 644316,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_PNP": {
+          "source_total": 750840,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_PIP": {
+          "source_total": 71442,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_PPT": {
+          "source_total": 22169,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_IND": {
+          "source_total": 3697,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_OTR": {
+          "source_total": 2780,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_MVT": {
+          "source_total": 1738,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPD_NVT": {
+          "source_total": 74355,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PPD_1": {
+          "source_total": 616282,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PPD_2": {
+          "source_total": 594621,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PNP_1": {
+          "source_total": 719836,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PNP_2": {
+          "source_total": 720214,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PIP_1": {
+          "source_total": 77932,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PIP_2": {
+          "source_total": 72972,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PPT_1": {
+          "source_total": 27749,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_PPT_2": {
+          "source_total": 25586,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_OTR": {
+          "source_total": 3298,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_MVT": {
+          "source_total": 1960,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SND_NVT": {
+          "source_total": 281854,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_1": {
+          "source_total": 481809,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_2": {
+          "source_total": 28476,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_3": {
+          "source_total": 22038,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_4": {
+          "source_total": 23681,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_5": {
+          "source_total": 24891,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPD_6": {
+          "source_total": 24992,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_1": {
+          "source_total": 622099,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_2": {
+          "source_total": 17762,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_3": {
+          "source_total": 17726,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_4": {
+          "source_total": 16695,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_5": {
+          "source_total": 15888,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PNP_6": {
+          "source_total": 15583,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PIP": {
+          "source_total": 121066,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_PPT": {
+          "source_total": 19537,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_OTR": {
+          "source_total": 866,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_MVT": {
+          "source_total": 41766,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "RPA_NVT": {
+          "source_total": 76749,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_1": {
+          "source_total": 446138,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_2": {
+          "source_total": 12809,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_3": {
+          "source_total": 11920,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_4": {
+          "source_total": 10997,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_5": {
+          "source_total": 10201,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPD_6": {
+          "source_total": 11565,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_1": {
+          "source_total": 590987,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_2": {
+          "source_total": 15427,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_3": {
+          "source_total": 16271,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_4": {
+          "source_total": 14944,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_5": {
+          "source_total": 14035,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PNP_6": {
+          "source_total": 12889,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PIP": {
+          "source_total": 130583,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_PPT": {
+          "source_total": 9957,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_IND": {
+          "source_total": 157788,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_OTR": {
+          "source_total": 538,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_MVT": {
+          "source_total": 60067,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "SNA_NVT": {
+          "source_total": 44499,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_BLN": {
+          "source_total": 11872,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_NUL": {
+          "source_total": 953,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_CND": {
+          "source_total": 362185,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_TOT": {
+          "source_total": 1584249,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_INT_PPD": {
+          "source_total": 413646,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_INT_PNP": {
+          "source_total": 557947,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_INT_PIP": {
+          "source_total": 34790,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_INT_PPT": {
+          "source_total": 5357,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_MIX_PPD": {
+          "source_total": 103050,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_MIX_PNP": {
+          "source_total": 81912,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_MIX_PIP": {
+          "source_total": 9428,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "LEG_MIX_PPT": {
+          "source_total": 3227,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_PPD": {
+          "source_total": 752354,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_PNP": {
+          "source_total": 766719,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_PIP": {
+          "source_total": 38769,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_PPT": {
+          "source_total": 5482,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_IND": {
+          "source_total": 659,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_OTR": {
+          "source_total": 4676,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_MVT": {
+          "source_total": 880,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "ALC_NVT": {
+          "source_total": 6399,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_BLN": {
+          "source_total": 8630,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_NUL": {
+          "source_total": 947,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_CND": {
+          "source_total": 289152,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_TOT": {
+          "source_total": 1584677,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_INT_PPD": {
+          "source_total": 581619,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_INT_PNP": {
+          "source_total": 624504,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_INT_PIP": {
+          "source_total": 27162,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_INT_PPT": {
+          "source_total": 3181,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_MIX_PPD": {
+          "source_total": 20767,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_MIX_PNP": {
+          "source_total": 20934,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_MIX_PIP": {
+          "source_total": 7018,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "MUN_MIX_PPT": {
+          "source_total": 983,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        },
+        "INSCRITOS": {
+          "source_total": 2867557,
+          "populated_rows": 1852,
+          "blank_rows": 0
+        }
+      }
+    }
+  }
+}

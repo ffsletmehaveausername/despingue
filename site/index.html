@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puerto Rico | PREKEY Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-shape bg-shape-a"></div>
+  <div class="bg-shape bg-shape-b"></div>
+  <main class="app-shell">
+    <aside class="left-panel card">
+      <div class="totals-panel">
+        <h3 id="selection-heading">Islandwide totals</h3>
+        <div id="selection-content" aria-live="polite"><p>Loading election totals…</p></div>
+      </div>
+      <div class="filters-panel">
+        <p class="label">Election year</p>
+        <nav class="year-buttons" aria-label="Election year">
+          <button type="button" class="year-btn" data-year="2012">2012</button>
+          <button type="button" class="year-btn" data-year="2016">2016</button>
+          <button type="button" class="year-btn" data-year="2020">2020</button>
+          <button type="button" class="year-btn is-active" data-year="2024">2024</button>
+        </nav>
+        <label class="label" for="race">Contest</label>
+        <select id="race" class="select"></select>
+        <div class="mode-panel" role="group" aria-label="Map display">
+          <button type="button" class="scope-btn is-active" data-mode="winner" aria-pressed="true">Winner</button>
+          <button type="button" class="scope-btn" data-mode="votes" aria-pressed="false">Votes</button>
+        </div>
+        <label class="label" for="candidate" id="candidate-label" hidden>Ballot choice</label>
+        <select id="candidate" class="select" hidden></select>
+        <label class="label switch-row" for="census-toggle"><input id="census-toggle" type="checkbox" role="switch"> ACS block groups</label>
+        <div class="census-options" id="census-options">
+          <label class="label" for="census-variable">Variable</label>
+          <select id="census-variable" class="select">
+            <optgroup label="Population and households">
+              <option value="B01003_001E">Population</option>
+              <option value="B01002_001E">Median age</option>
+              <option value="B19058_002E">SNAP households</option>
+            </optgroup>
+            <optgroup label="Income and housing wealth indicators">
+              <option value="B19013_001E">Median household income</option>
+              <option value="B19301_001E">Per capita income</option>
+              <option value="HH_INCOME_100K_PLUS_PCT">Households with income $100K+ (%)</option>
+              <option value="B25077_001E">Median home value</option>
+              <option value="HOMEOWNERSHIP_PCT">Homeownership rate (%)</option>
+            </optgroup>
+            <optgroup label="Educational attainment (age 25+)">
+              <option value="B15003_001E">Adults age 25+ (count)</option>
+              <option value="EDU_LT_HS_PCT">Less than high school (%)</option>
+              <option value="EDU_HS_GED_PCT">High school diploma or GED (%)</option>
+              <option value="EDU_SOME_COLLEGE_PCT">Some college or associate's degree (%)</option>
+              <option value="EDU_BACHELORS_PCT">Bachelor's degree (%)</option>
+              <option value="EDU_GRADUATE_PCT">Graduate or professional degree (%)</option>
+              <option value="EDU_BACHELORS_PLUS_PCT">Bachelor's degree or higher (%)</option>
+            </optgroup>
+          </select>
+        </div>
+        <p id="census-availability" class="availability"></p>
+      </div>
+    </aside>
+
+    <section class="map-panel card" aria-label="Puerto Rico election map">
+      <div class="map-tabs">
+        <button type="button" class="map-tab-btn is-active" data-tab="electoral">Electoral</button>
+        <button type="button" class="map-tab-btn" data-tab="unapportioned">Unapportioned Census</button>
+      </div>
+      <header class="map-header">
+        <p class="title"><span id="map-year">2024</span> <span id="map-heading-title">Governor · winner</span></p>
+      </header>
+      <aside class="legend card" id="legend" aria-label="Election legend"></aside>
+      <div id="map" class="map-canvas"></div>
+      <footer class="bottom-controls">
+        <button type="button" class="scope-btn" id="reset-view" title="Reset map view" aria-label="Reset map view">Reset view</button>
+        <span class="map-scale" id="map-scale">CEE 2024 · observed precinto returns</span>
+        <label class="overlay-transparency-control" for="opacity">
+          <span>Block-group opacity <output id="opacity-value">48%</output></span>
+          <input id="opacity" type="range" min="15" max="90" value="48">
+        </label>
+      </footer>
+    </section>
+  </main>
+  <div class="loading" id="loading" role="status">Loading map data…</div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

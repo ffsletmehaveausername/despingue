@@ -1,0 +1,760 @@
+{
+  "year": 2024,
+  "unit_keys": 2092,
+  "precincts": 114,
+  "sources": {
+    "ESTATAL": {
+      "source": "cee_election_returns/2024/estatal (9).csv",
+      "sheet": null,
+      "sha256": "4ded67c92208cd59816a42279919388cad79b423cbd6f1f1a8f5d0609237a28f",
+      "rows": 7845,
+      "blank_padded_rows": 0,
+      "publication_footer_rows": 0,
+      "unit_keys": 2092,
+      "precincts": 114,
+      "non_additive_status_values": {
+        "STATUS_1": {
+          "FINAL (ENTRADA MANUAL)": 7845
+        }
+      },
+      "columns": {
+        "GOB_PNP": {
+          "source_total": 526020,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_PPD": {
+          "source_total": 273649,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_MVC": {
+          "source_total": 1522,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_PIP": {
+          "source_total": 392185,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_PD": {
+          "source_total": 81369,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_OTR": {
+          "source_total": 1362,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_MVT": {
+          "source_total": 862,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "GOB_NVT": {
+          "source_total": 2775,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_PNP": {
+          "source_total": 452615,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_PPD": {
+          "source_total": 530540,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_MVC": {
+          "source_total": 115710,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_PIP": {
+          "source_total": 60161,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_PD": {
+          "source_total": 60512,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_OTR": {
+          "source_total": 624,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_MVT": {
+          "source_total": 405,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "COM_NVT": {
+          "source_total": 59324,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PNP_INT": {
+          "source_total": 407257,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PPD_INT": {
+          "source_total": 241150,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_MVC_INT": {
+          "source_total": 958,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PIP_INT": {
+          "source_total": 52032,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PD_INT": {
+          "source_total": 46686,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PNP_MIX": {
+          "source_total": 8585,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PPD_MIX": {
+          "source_total": 11378,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_MVC_MIX": {
+          "source_total": 4352,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PIP_MIX": {
+          "source_total": 40325,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_PD_MIX": {
+          "source_total": 3999,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_BLN": {
+          "source_total": 3305,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_NUL": {
+          "source_total": 829,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_MVT": {
+          "source_total": 763,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_CND": {
+          "source_total": 463329,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "EST_TOT": {
+          "source_total": 1283402,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "INSCRITOS": {
+          "source_total": 1987317,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        }
+      }
+    },
+    "LEGISLATIVA": {
+      "source": "cee_election_returns/2024/legislativa (2).csv",
+      "sheet": null,
+      "sha256": "ec93e94b54cf71bc4cf3e0330959df111ba9a13deffc09da0d8d2b51e26f2767",
+      "rows": 7845,
+      "blank_padded_rows": 0,
+      "publication_footer_rows": 0,
+      "unit_keys": 2092,
+      "precincts": 114,
+      "non_additive_status_values": {
+        "STATUS_2": {
+          "FINAL (ENTRADA MANUAL)": 7845
+        }
+      },
+      "columns": {
+        "RPD_PNP": {
+          "source_total": 498434,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPD_PPD": {
+          "source_total": 411374,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPD_MVC": {
+          "source_total": 73061,
+          "populated_rows": 3852,
+          "blank_rows": 3993
+        },
+        "RPD_PIP": {
+          "source_total": 112652,
+          "populated_rows": 5229,
+          "blank_rows": 2616
+        },
+        "RPD_PD": {
+          "source_total": 67757,
+          "populated_rows": 5489,
+          "blank_rows": 2356
+        },
+        "RPD_OTR": {
+          "source_total": 1805,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPD_MVT": {
+          "source_total": 2078,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPD_NVT": {
+          "source_total": 104124,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PNP_1": {
+          "source_total": 469613,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PNP_2": {
+          "source_total": 467334,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PPD_1": {
+          "source_total": 373373,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PPD_2": {
+          "source_total": 356549,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_MVC_1": {
+          "source_total": 156795,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PIP_1": {
+          "source_total": 198570,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_PD_1": {
+          "source_total": 87340,
+          "populated_rows": 7047,
+          "blank_rows": 798
+        },
+        "SND_PD_2": {
+          "source_total": 83226,
+          "populated_rows": 7047,
+          "blank_rows": 798
+        },
+        "SND_OTR": {
+          "source_total": 3582,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_MVT": {
+          "source_total": 1987,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SND_NVT": {
+          "source_total": 342711,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_1": {
+          "source_total": 413827,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_2": {
+          "source_total": 9755,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_3": {
+          "source_total": 11308,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_4": {
+          "source_total": 9496,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_5": {
+          "source_total": 10025,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PNP_6": {
+          "source_total": 9520,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PPD_1": {
+          "source_total": 307594,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PPD_2": {
+          "source_total": 25024,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PPD_3": {
+          "source_total": 29245,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PPD_4": {
+          "source_total": 26489,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PIP": {
+          "source_total": 192404,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_PD": {
+          "source_total": 84976,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_IND": {
+          "source_total": 12910,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_OTR": {
+          "source_total": 29994,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_MVT": {
+          "source_total": 20286,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "RPA_NVT": {
+          "source_total": 78289,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_1": {
+          "source_total": 396678,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_2": {
+          "source_total": 10840,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_3": {
+          "source_total": 10506,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_4": {
+          "source_total": 9342,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_5": {
+          "source_total": 9655,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PNP_6": {
+          "source_total": 9252,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PPD_1": {
+          "source_total": 284919,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PPD_2": {
+          "source_total": 14561,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PPD_3": {
+          "source_total": 11996,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PPD_4": {
+          "source_total": 13577,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PIP": {
+          "source_total": 178575,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_PD": {
+          "source_total": 94604,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_IND_1": {
+          "source_total": 48566,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_IND_2": {
+          "source_total": 2042,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_IND_3": {
+          "source_total": 10191,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_OTR": {
+          "source_total": 84649,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_MVT": {
+          "source_total": 31623,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "SNA_NVT": {
+          "source_total": 49634,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PNP_INT": {
+          "source_total": 375190,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PPD_INT": {
+          "source_total": 257954,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_MVC_INT": {
+          "source_total": 5226,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PIP_INT": {
+          "source_total": 56867,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PD_INT": {
+          "source_total": 51109,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PNP_MIX": {
+          "source_total": 45776,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PPD_MIX": {
+          "source_total": 43045,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_MVC_MIX": {
+          "source_total": 9312,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PIP_MIX": {
+          "source_total": 33538,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_PD_MIX": {
+          "source_total": 8466,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_BLN": {
+          "source_total": 10126,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_NUL": {
+          "source_total": 1019,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_MVT": {
+          "source_total": 429,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_CND": {
+          "source_total": 385363,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "LEG_TOT": {
+          "source_total": 1282935,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "INSCRITOS": {
+          "source_total": 1987317,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        }
+      }
+    },
+    "MUNICIPAL": {
+      "source": "cee_election_returns/2024/municipal (1).csv",
+      "sheet": null,
+      "sha256": "83cdfdde9bfdff447385fbb5eebbdc2536798683a0b59464ef10086deda636c6",
+      "rows": 7845,
+      "blank_padded_rows": 0,
+      "publication_footer_rows": 0,
+      "unit_keys": 2092,
+      "precincts": 114,
+      "non_additive_status_values": {
+        "STATUS_3": {
+          "FINAL (ENTRADA MANUAL)": 7845
+        }
+      },
+      "columns": {
+        "ALC_PNP": {
+          "source_total": 567479,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "ALC_PPD": {
+          "source_total": 519022,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "ALC_MVC": {
+          "source_total": 75829,
+          "populated_rows": 4959,
+          "blank_rows": 2886
+        },
+        "ALC_PIP": {
+          "source_total": 57075,
+          "populated_rows": 6882,
+          "blank_rows": 963
+        },
+        "ALC_PD": {
+          "source_total": 41417,
+          "populated_rows": 5322,
+          "blank_rows": 2523
+        },
+        "ALC_IND": {
+          "source_total": 1330,
+          "populated_rows": 1014,
+          "blank_rows": 6831
+        },
+        "ALC_OTR": {
+          "source_total": 4062,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "ALC_MVT": {
+          "source_total": 918,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "ALC_NVT": {
+          "source_total": 4588,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_PNP_INT": {
+          "source_total": 436366,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_PPD_INT": {
+          "source_total": 377442,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_MVC_INT": {
+          "source_total": 54916,
+          "populated_rows": 6032,
+          "blank_rows": 1813
+        },
+        "MUN_PIP_INT": {
+          "source_total": 43986,
+          "populated_rows": 6982,
+          "blank_rows": 863
+        },
+        "MUN_PD_INT": {
+          "source_total": 31484,
+          "populated_rows": 6112,
+          "blank_rows": 1733
+        },
+        "MUN_PNP_MIX": {
+          "source_total": 13991,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_PPD_MIX": {
+          "source_total": 15751,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_MVC_MIX": {
+          "source_total": 4391,
+          "populated_rows": 6032,
+          "blank_rows": 1813
+        },
+        "MUN_PIP_MIX": {
+          "source_total": 11722,
+          "populated_rows": 6982,
+          "blank_rows": 863
+        },
+        "MUN_PD_MIX": {
+          "source_total": 4091,
+          "populated_rows": 6112,
+          "blank_rows": 1733
+        },
+        "MUN_BLN": {
+          "source_total": 6728,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_NUL": {
+          "source_total": 888,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_MVT": {
+          "source_total": 152,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_CND": {
+          "source_total": 277664,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "MUN_TOT": {
+          "source_total": 1281506,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "INSCRITOS": {
+          "source_total": 1987317,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        }
+      }
+    },
+    "PLEBISCITO": {
+      "source": "cee_election_returns/2024/plebiscito.csv",
+      "sheet": null,
+      "sha256": "849aad41acc2c01c67fd753ac48fcd633b433cbc72d73777bdb06774375d1213",
+      "rows": 7845,
+      "blank_padded_rows": 0,
+      "publication_footer_rows": 0,
+      "unit_keys": 2092,
+      "precincts": 114,
+      "non_additive_status_values": {
+        "STATUS_5": {
+          "FINAL (ENTRADA MANUAL)": 7845
+        }
+      },
+      "columns": {
+        "PLE_SLA": {
+          "source_total": 313259,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_EST": {
+          "source_total": 620782,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_IND": {
+          "source_total": 125171,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_MVT": {
+          "source_total": 0,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_NVT": {
+          "source_total": 0,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_BLN": {
+          "source_total": 181243,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_NUL": {
+          "source_total": 0,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_OVR": {
+          "source_total": 23610,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_TOT": {
+          "source_total": 1059212,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "PLE_BAL": {
+          "source_total": 1264065,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        },
+        "INSCRITOS": {
+          "source_total": 1987317,
+          "populated_rows": 7845,
+          "blank_rows": 0
+        }
+      }
+    }
+  }
+}
