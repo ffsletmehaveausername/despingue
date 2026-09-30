@@ -25,8 +25,12 @@ because browsers restrict local `fetch` requests.
 
 Deploy **only the contents of `site/`** to a static host. For example,
 choose `site` as the publish directory in Netlify, Cloudflare Pages, or a
-similar service. On GitHub Pages, copy the contents of `site/` into the
-published root of the Pages branch or build artifact. No server-side Python,
+similar service. For GitHub Pages, the workflow in
+`.github/workflows/deploy-pages.yml` publishes `site/` on every push to
+`main`. In the repository, open **Settings > Pages > Build and deployment**,
+set **Source** to **GitHub Actions**, and check the **Actions** tab for the
+first deployment. The site URL is
+`https://ffsletmehaveausername.github.io/despingue/`. No server-side Python,
 Census key, raw election workbook, or source ZIP is needed on the host.
 Keep all `site/data/*.geojson` alongside `index.html`, `app.js`, and
 `styles.css`; the app uses relative paths and works under a subpath.
